@@ -1,7 +1,5 @@
 # Code Reviewer
 
-[![CI](https://github.com/HemantkMCA25/AI-Code-Reviewer/actions/workflows/ci.yml/badge.svg)](https://github.com/HemantkMCA25/AI-Code-Reviewer/actions/workflows/ci.yml)
-
 A simple code review tool for **Python and C++**. It analyzes code structure (Python's `ast` module for Python, [tree-sitter](https://tree-sitter.github.io/) for C++), computes a 0-100 quality score, and gives plain-English feedback. No API keys or internet connection needed.
 
 ## Features
@@ -75,5 +73,6 @@ pytest --cov=. --cov-report=term-missing
 - Rule-based feedback is a heuristic, not a proof of algorithmic complexity
 
 ## Roadmap
-- Post results as comments on pull requests
 - More C++ checks (missing `const` references, pass-by-value of large parameters)
+- Post results as comments on pull requests
+- Support for more programming languages
