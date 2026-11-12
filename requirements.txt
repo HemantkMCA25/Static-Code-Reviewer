@@ -1,0 +1,3 @@
+streamlit
+tree-sitter>=0.23
+tree-sitter-cpp>=0.23
